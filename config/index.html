@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="canvas_header">
+            
+        </div>
+        <div class="container_header">
+            <div class="text_header" id="text_header" style="">
+                <h1 id="text_name">Sergey Shiryayev</h1>
+            </div>
+            <div class="desc_name">
+                <div class="desc_handler">
+                    <h1 id="desc_text">Backend Developer</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <section>
+        <div class="container" id="canvas_handler">
+            <div class="canvas_desc">
+                <div class="canvas_desc_text">
+                    <h1>PHP</h1>
+                    <h1>MySQL/MariaDB</h1>
+                    <h1>Python</h1>
+                    <h1>Linux</h1>
+                </div>
+            </div>
+            <div id="canvas_container">
+
+            </div>
+        </div>
+    </section>
+    <script>
+        
+    </script>
+    <script src="index.js"></script>
+
+</body>
+</html> -->
+
+<script>
+    fetch('http://82.202.204.94/tmp/test.php',{
+        method: "GET",
+        // credentials: 'same-origin'
+    })
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        console.log(data);
+    });
+
+</script>
